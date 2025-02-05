@@ -1,0 +1,672 @@
+[
+    {
+        "governorate": "TUNIS",
+        "delegations": [
+            {
+                "delegation": "CARTHAGE",
+                "localities": [
+                    "SIDI BOU SAID",
+                    "AMILCAR",
+                    "CARTHAGE BYRSA",
+                    "CARTHAGE PLAGE",
+                    "LE JASMIN",
+                    "RUE HADI CHAKER CARTHAGE SALMBO",
+                    "MOHAMMED ALI",
+                    "SALAMBO"
+                ]
+            },
+            {
+                "delegation": "LA MEDINA",
+                "localities": [
+                    "LA MEDINA",
+                    "EL HAFSIA",
+                    "BAB BENAT",
+                    "SOUK EL NHES",
+                    "EL ASSOUAK",
+                    "BAB MNARA",
+                    "TOURBET EL BEY",
+                    "EL ZRARIA",
+                    "SIDI ALI AZOUZ",
+                    "EL TAOUFIK",
+                    "EL SABAGHINE",
+                    "SIDI BOUMENDIL"
+                ]
+            },
+            {
+                "delegation": "BAB BHAR",
+                "localities": [
+                    "BAB BHAR",
+                    "REPUBLIQUE",
+                    "LES JARDINS",
+                    "MONGI SLIM",
+                    "HABIB THAMEUR",
+                    "TAIEB EL M'HIRI",
+                    "HEDI CHAKER",
+                    "SIDI EL BAHRI",
+                    "MONTPLAISIR",
+                    "LAFAYETTE",
+                    "BAB EL JAZIRA"
+                ]
+            },
+            {
+                "delegation": "BAB SOUIKA",
+                "localities": [
+                    "TRONJA",
+                    "BAB EL KHADRA",
+                    "BAB SAADOUN",
+                    "BORJ ZOUARA",
+                    "BAB EL ASSEL",
+                    "EL HALFAOUINE",
+                    "BAB SOUIKA",
+                    "BAB SIDI ABDESSALEM",
+                    "ZAOUIET EL BEKRIA",
+                    "HAMMAM EL RMIMI",
+                    "SIDI DJEBALI",
+                    "BAB EL ALOUJ"
+                ]
+            },
+            {
+                "delegation": "EL OMRANE",
+                "localities": [
+                    "EL OMRANE",
+                    "DJEBEL EL AHMAR",
+                    "CITE DES OLIVIERS",
+                    "RAS TABIA",
+                    "BIR ATIG",
+                    "OUED EL SEBAI"
+                ]
+            },
+            {
+                "delegation": "EL OMRANE SUPÉRIEUR",
+                "localities": [
+                    "CITE IBN KHALDOUN 1",
+                    "CITE IBN KHALDOUN 2",
+                    "EL ROMANA",
+                    "CITE IBN KHALDOUN 6",
+                    "CITE EL INTILAKA",
+                    "EL OMRANE SUPERIEUR",
+                    "EL NASSIM",
+                    "AHMED TLILI",
+                    "ES-SADIQUE"
+                ]
+            },
+            {
+                "delegation": "ETTAHRIR",
+                "localities": [
+                    "ETTAHRIR 1",
+                    "ETTAHRIR 2",
+                    "ETTAHRIR 3",
+                    "ETTAHRIR SUPERIEUR",
+                    "CITE DU JARDIN"
+                ]
+            },
+            {
+                "delegation": "EL MENZAH",
+                "localities": [
+                    "01 JUIN",
+                    "EL MENZAH 4",
+                    "EL MENZAH 1",
+                    "CITÉ EL MAHRAJENE",
+                    "EL MANAR",
+                    "EL MANAR 2",
+                    "EL MANAR 3",
+                    "EL MANAR 1",
+                    "JARDINS D'EL MENZAH",
+                    "MUTUELLE VILLE"
+                ]
+            },
+            {
+                "delegation": "CITE EL KHADRA/CITÉ EL KHADRA",
+                "localities": [
+                    "CITE EL KHADRA",
+                    "CITE JARDIN",
+                    "CHARGUIA",
+                    "KHEIREDDINE PACHA",
+                    "CITE OPLYMPIQUE",
+                    "ALI BELHOUANE",
+                    "FARHAT HACHED",
+                    "EL BOUHAIRA",
+                    "CITÉ ESSALEM",
+                    "CENTRE URBAIN NORD"
+                ]
+            },
+            {
+                "delegation": "BARDO",
+                "localities": [
+                    "BARDO",
+                    "BARDO NORD",
+                    "BARDO SUD",
+                    "EL HADIKA",
+                    "BOUCHOUCHA",
+                    "KHAZNADAR",
+                    "KSAR SAID",
+                    "BOURGIL",
+                    "KSAR SAID 2",
+                    "ESSAADA",
+                    "KSAR EL BORTAL",
+                    "IBN SINA"
+                ]
+            },
+            {
+                "delegation": "SIJOUMI",
+                "localities": [
+                    "CITE HELEL",
+                    "ALI BELHOUANE",
+                    "EN-NAJAH",
+                    "CITÉ TAYARAN",
+                    "CITE DES MARTYRS",
+                    "BIR ANNIBA",
+                    "MELLASSINE"
+                ]
+            },
+            {
+                "delegation": "EZZOUHOUR",
+                "localities": [
+                    "EZZOUHOUR",
+                    "EZZOUHOUR 4",
+                    "CITE ESSAADA",
+                    "ES-SOUMRANE",
+                    "CITE TAYARANE",
+                    "BACH-HAMBA"
+                ]
+            },
+            {
+                "delegation": "EL HRAIRIA",
+                "localities": [
+                    "EL HRAIRIA",
+                    "EZZOUHOUR 5",
+                    "EL AKBA",
+                    "EL AKBA SUPERIEUR",
+                    "GHEDIR EL GOLLA",
+                    "EL ANTIT",
+                    "EL FOULA",
+                    "TARAK IBN ZIAD",
+                    "EZZAHROUNI"
+                ]
+            },
+            {
+                "delegation": "SIDI HASSINE",
+                "localities": [
+                    "BORJ CHAKIR",
+                    "SIDI HASSINE",
+                    "EL JAIARA",
+                    "ATTAR",
+                    "20 MARS",
+                    "BYRINE",
+                    "MEGHIRET INZEL",
+                    "25 JUILLET",
+                    "14 JANVIER"
+                ]
+            },
+            {
+                "delegation": "EL OUARDIA",
+                "localities": [
+                    "EL OUARDIA",
+                    "BOU GATFA",
+                    "TAHAR SFAR",
+                    "CITE EL IZDIHAR",
+                    "CITE MOHAMED ALI",
+                    "SIDI BELHASSEN",
+                    "BELLEVUE"
+                ]
+            },
+            {
+                "delegation": "EL KABARIA",
+                "localities": [
+                    "EL KABARIA 1",
+                    "EL KABARIA 2",
+                    "EL KABARIA 3",
+                    "EL KABARIA 4",
+                    "CITE ENNOUR",
+                    "IBN SINA 1",
+                    "IBN SINA 2",
+                    "EL MOUROUJ 2"
+                ]
+            },
+            {
+                "delegation": "SIDI EL BECHIR",
+                "localities": [
+                    "SIDI EL BECHIR",
+                    "SIDI MANSOUR",
+                    "MAAKEL EZZAIM",
+                    "FARHAT HACHED",
+                    "ABOU EL KACEM CHEBBI",
+                    "MONTFLEURY",
+                    "SAIDA MANOUBIA",
+                    "BAB EL FALLA"
+                ]
+            },
+            {
+                "delegation": "DJEBEL JELLOUD",
+                "localities": [
+                    "SIDI FATHALLAH",
+                    "ALI BACH HAMBA",
+                    "GARJOUMA",
+                    "CITE EL FATH",
+                    "ES SEBKHA",
+                    "AFRANE",
+                    "DJEBEL JELLOUD"
+                ]
+            },
+            {
+                "delegation": "LA GOULETTE",
+                "localities": [
+                    "LA GOULETTE",
+                    "LA GOULETTE CASINO",
+                    "KHEIREDDINE",
+                    "TAIEB MHIRI",
+                    "CITÉ ESSALEMA"
+                ]
+            },
+            {
+                "delegation": "KRAM",
+                "localities": [
+                    "KRAM EST",
+                    "ERRIADH",
+                    "EL BOUHAIRA",
+                    "SIDI FREDJ",
+                    "KRAM OUEST",
+                    "SIDI AMOR",
+                    "BIR EL HELOU"
+                ]
+            },
+            {
+                "delegation": "EL AOUINA",
+                "localities": [
+                    "CITÉ LES PALMERAIES"
+                ]
+            },
+            {
+                "delegation": "MARSA",
+                "localities": [
+                    "MARSA PLAGE",
+                    "CITÉ EL MHIRI",
+                    "MARSA MEDINA",
+                    "MARSA HADAYEK",
+                    "CITE DES JUGES 2",
+                    "CITE DU STADE",
+                    "CITE EL MOEZ",
+                    "CITE EL HANA",
+                    "CITÉ EL AHMADI",
+                    "CITE EL KHALIL",
+                    "MARSA ENNASSIM",
+                    "MARSA ERRIADH",
+                    "CITE RIMILA",
+                    "MARSA EL MONTAZEH",
+                    "BERGE DU LAC",
+                    "ROUTE DU RELAIS",
+                    "GAMMARTH",
+                    "GAMMARTH SUPÉRIEUR",
+                    "MARSA SAFSAF",
+                    "SIDI DAOUED",
+                    "AIN ZAGHOUAN",
+                    "JARDINS DE CARTHAGE",
+                    "CITÉ EL MOSTAKBEL",
+                    "CITE AZIZA",
+                    "CITE BHAR LAZREG"
+                ]
+            }
+        ]
+    },
+    {
+        "governorate": "ARIANA",
+        "delegations": [
+            {
+                "delegation": "ARIANA VILLE",
+                "localities": [
+                    "NOUVELLE ARIANA",
+                    "CITE JAAFAR",
+                    "ARIANA SUPÉRIEURE",
+                    "ARIANA MEDINA",
+                    "EL MENZAH 5",
+                    "EL MENZAH 6",
+                    "EL MENZAH 7",
+                    "EL MENZAH 8",
+                    "EL MENZAH 9",
+                    "ETTAAMIR 1",
+                    "EL YASMINA",
+                    "CITÉ ENNASR 1",
+                    "CITE EL INTISSAR ",
+                    "CITÉ ENNASR 2",
+                    "BORJ BACCOUCHE",
+                    "RIADH EL ANDALOUS ",
+                    "CITE ESSAADA (RIADH ANDALOUS)",
+                    "CITÉ ENNOZHA",
+                    "BELVEDERE"
+                ]
+            },
+            {
+                "delegation": "SOUKRA",
+                "localities": [
+                    "SOUKRA",
+                    "DAR FADHAL",
+                    "EL BASSATINE",
+                    "CHOTRANA",
+                    "BORJ LOUZIR",
+                    "CITE HEDI NOUIRA",
+                    "ENNASSIM",
+                    "CITÉ EL BEHI LADGHEM",
+                    "CITE EL BOUSTENE 2",
+                    "ETTAAMIR",
+                    "AOUINA",
+                    "CITÉ DE LA SANTÉ",
+                    "SIDI SALAH",
+                    "SIDI FREJ"
+                ]
+            },
+            {
+                "delegation": "RAOUED",
+                "localities": [
+                    "JAAFAR",
+                    "CITE ENNOUR JAAFAR",
+                    "NKHILET",
+                    "MEDINA EL FADHLA",
+                    "EL GHAZELA",
+                    "CITÉ EL GHAZALA 1",
+                    "CITÉ EL GHAZALA 2",
+                    "BORJ TOUIL",
+                    "SIDI OMAR BOU KHTIWA",
+                    "ARIANA ESSOUGHRA",
+                    "CITÉ EL SAHAFA"
+                ]
+            },
+            {
+                "delegation": "KALLAT EL ANDALOUS ",
+                "localities": [
+                    "KALLAT EL ANDALOUS",
+                    "KALAAT EL ANDALOUS OUEST",
+                    "PONT DE BIZERTE",
+                    "BOU HANNECH",
+                    "EL HESSIANE",
+                    "ENNAHLI"
+                ]
+            },
+            {
+                "delegation": "SIDI THABET",
+                "localities": [
+                    "SIDI THABET",
+                    "BEJAOUA",
+                    "MONGI SLIM",
+                    "CEBALET BEN AMMAR",
+                    "CHORFECH"
+                ]
+            },
+            {
+                "delegation": "CITÉ ETTADHAMEN",
+                "localities": [
+                    "CITÉ ETTADHAMEN",
+                    "IBN KHALDOUN",
+                    "9 AVRIL",
+                    "18 JANVIER",
+                    "20 MARS",
+                    "MONGI SLIM",
+                    "TADHAMEN 4",
+                    "ABOU EL KACEM ECHEBBI",
+                    "KHEIREDDINE PACHA"
+                ]
+            },
+            {
+                "delegation": "EL MNIHLA",
+                "localities": [
+                    "EL MNIHLA",
+                    "ERRAFAHA",
+                    "ENNASR",
+                    "EL BASSATINE",
+                    "JARDINS D'EL MENZAH",
+                    "15 OCTOBRE"
+                ]
+            }
+        ]
+    },
+    {
+        "governorate": "MANOUBA",
+        "delegations": [
+            {
+                "delegation": "MANOUBA",
+                "localities": [
+                    "MANOUBA",
+                    "MANOUBA CENTRE",
+                    "SIDI AMOR",
+                    "DENDEN",
+                    "KSAR SAID",
+                    "DENDEN SUD"
+                ]
+            },
+            {
+                "delegation": "DOUAR HICHER",
+                "localities": [
+                    "DOUAR HICHER",
+                    "KHALED IBN EL OUALID",
+                    "CITÉ RIADH",
+                    "CITÉ ENNASSIM",
+                    "CITÉ CHABEB"
+                ]
+            },
+            {
+                "delegation": "OUED ELLIL",
+                "localities": [
+                    "OUED ELLIL",
+                    "SAIDA",
+                    "RIADH",
+                    "CITÉ EL OUERD",
+                    "ENNAJET",
+                    "SANHAJA",
+                    "EL KOBBAA"
+                ]
+            },
+            {
+                "delegation": "MORNAGUIA",
+                "localities": [
+                    "MORNAGUIA",
+                    "20-MARS",
+                    "BOURAGBA",
+                    "EL FAJJA",
+                    "SIDI ALI EL HATTAB",
+                    "HMAÎEMA",
+                    "EL BASSATINE",
+                    "MORNAGUIA NORD"
+                ]
+            },
+            {
+                "delegation": "BORJ EL AMRI",
+                "localities": [
+                    "BORJ EL AMRI",
+                    "MENZEL HABIB",
+                    "BORJ ENNOUR",
+                    "EL MOUSSADINE"
+                ]
+            },
+            {
+                "delegation": "DJEDAÎDA",
+                "localities": [
+                    "DJEDAÎDA",
+                    "DJEDAÎDA HACHED",
+                    "CHAOUAT",
+                    "EL MANSOURA",
+                    "ZAHRA",
+                    "EL HABIBIA"
+                ]
+            },
+            {
+                "delegation": "TEBOURBA",
+                "localities": [
+                    "TEBOURBA",
+                    "EL ANSARINE",
+                    "EDKHILA",
+                    "MELLAHA",
+                    "BANLIEUE DE TEBOURBA",
+                    "RAJA",
+                    "CHOUIGUI"
+                ]
+            },
+            {
+                "delegation": "EL BATTANE",
+                "localities": [
+                    "EL BATTANE",
+                    "BORJ ETTOUMI",
+                    "MEHRINE",
+                    "EL AROUSSIA"
+                ]
+            }
+        ]
+    },
+    {
+        "governorate": "BEN AROUS",
+        "delegations": [
+            {
+                "delegation": "BEN AROUS",
+                "localities": [
+                    "BEN AROUS EST",
+                    "CITE IBN ARAFA",
+                    "EL MEHIRI",
+                    "BEN AROUS OUEST",
+                    "SIDI BEN AROUS",
+                    "CITE EL ISKANE"
+                ]
+            },
+            {
+                "delegation": "NOUVELLE MEDINA",
+                "localities": [
+                    "NOUVELLE MEDINA 1",
+                    "NOUVELLE MEDINA 2",
+                    "SIDI MOSBAH",
+                    "EL YASMINET",
+                    "ERRABTA"
+                ]
+            },
+            {
+                "delegation": "EL MOUROUJ",
+                "localities": [
+                    "EL MOUROUJ 1",
+                    "EL MOUROUJ 3",
+                    "EL MOUROUJ 4",
+                    "EL MOUROUJ 5",
+                    "BIR KASSAA",
+                    "FARHAT HACHED",
+                    "RESIDENCE TYPE",
+                    "RESIDENCE JINENE EL MOUROUJ",
+                    "RESIDENCE ZAHRET EL MOUROUJ",
+                    "RESIDENCE CHOUROUK 1"
+                ]
+            },
+            {
+                "delegation": "HAMMAM LIF",
+                "localities": [
+                    "HAMMAM LIF VILLE",
+                    "HAMMEM LIF VILLE 2",
+                    "HAMMEM LIF BOU KORNINE",
+                    "CITE THERMALE",
+                    "FARHAT HACHED",
+                    "HAMMAM LIF EL MALAAB",
+                    "CITE MOHAMED ALI",
+                    "CITE BOUSSOUFFARA"
+                ]
+            },
+            {
+                "delegation": "HAMMEM CHATT",
+                "localities": [
+                    "BIR EL BEY",
+                    "BORJ CEDRIA",
+                    "HAMMEM CHATT"
+                ]
+            },
+            {
+                "delegation": "BOU MHEL EL BASSATINE",
+                "localities": [
+                    "BOU MHEL",
+                    "EL BASSATINE",
+                    "CITE EL MAHRAJENE",
+                    "CHELA",
+                    "EL BASSATINE EL GHARBYA"
+                ]
+            },
+            {
+                "delegation": "EZZAHRA",
+                "localities": [
+                    "EZZAHRA VILLE",
+                    "CITE EL HABIB",
+                    "18 JANVIER",
+                    "BORJ EL LOUZIR",
+                    "CITE PANORAMA"
+                ]
+            },
+            {
+                "delegation": "RADES",
+                "localities": [
+                    "RADES VILLE",
+                    "RADES",
+                    "RADES MELLAHA",
+                    "TAIEB MEHIRI",
+                    "RADES REMADA",
+                    "MONGI SLIM",
+                    "RADES FORET",
+                    "CITE SNIT",
+                    "RADES MELIANE",
+                    "RADES PLAGE",
+                    "CITE EL EZZ",
+                    "CHOUCHET RADES",
+                    "NOUBOU",
+                    "VILLAGE MEDITERRANEE",
+                    "VILLE SPORTIVE",
+                    "RÉSIDENCE IBN ZEIDOUN"
+                ]
+            },
+            {
+                "delegation": "MEGRINE",
+                "localities": [
+                    "MEGRINE SUPERIEURE",
+                    "MEGRINE RIADH",
+                    "JAWHARA",
+                    "MENZEL MABROUK",
+                    "MEGRINE CHAKER",
+                    "MEGRINE CHAKER 2",
+                    "MEGRINE JAOUHARA",
+                    "MEGRINE",
+                    "SIDI REZIG",
+                    "SIDI REZIG 2"
+                ]
+            },
+            {
+                "delegation": "MOHAMADIA",
+                "localities": [
+                    "MOHAMEDIA",
+                    "MONGI SELIM",
+                    "CITE SAADA",
+                    "CITE ENNACIM"
+                ]
+            },
+            {
+                "delegation": "FOUCHANA",
+                "localities": [
+                    "FOUCHANA",
+                    "CITE EL MISK",
+                    "CITE EL MOSTAKBEL",
+                    "EL HIDHAB",
+                    "EL MGHIRA",
+                    "NAASSEN",
+                    "CHEBEDA",
+                    "DOUAR ELHOUCH"
+                ]
+            },
+            {
+                "delegation": "MORNAG",
+                "localities": [
+                    "MORNAG",
+                    "MORNAG OUEST",
+                    "KHELIDIA",
+                    "EL ZAOUIA",
+                    "DJEBEL RESSAS",
+                    "SIDI SALEM EL GARSI",
+                    "KABOUTI",
+                    "AIN REKAD",
+                    "EL GOUNNA",
+                    "SIDI SAAD",
+                    "ESSALEM",
+                    "ERRISALA",
+                    "OUDNA",
+                    "EL KESSIBI"
+                ]
+            }
+        ]
+    }
+]
