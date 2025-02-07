@@ -35,6 +35,10 @@ for item in locationdata:
             delegation_munips[delegation['delegation'].upper()].append(munip)
             munips_delegations[munip] = delegation['delegation'].upper()
 
+states.sort(key=lambda phrase: len(phrase.split()), reverse=True)
+delegations.sort(key=lambda phrase: len(phrase.split()), reverse=True)
+munips.sort(key=lambda phrase: len(phrase.split()), reverse=True)
+
 
 def show_all_valid_records(col, db):
     for db_item in db:
@@ -81,7 +85,7 @@ def exists(col, record):
 
 
 def exists_and_equal(col, value, record):
-    if exists(col,record):
+    if exists(col, record):
         if float(record[col]) == float(value):
             return True
     return False
@@ -118,16 +122,12 @@ def match_Closest_Word(item_text, wordlist):
     return res
 
 
-def location_Mapper(location_Levels, location_level_lookup, flat_location_levels, location_Level_Names, location_cols, dbItem):
-    previousLevelOptimization = None
-    for i in range(len(location_Level_Names)):
+def location_Mapper(location_level_lookup, flat_location_levels, location_Level_Names, location_cols, dbItem):
+    for i in range(len(location_Level_Names) - 1, -1, -1):
         dbItem[location_Level_Names[i] + 'Report'] = 0
         for location_col in location_cols[i]:
             if exists(location_col, dbItem):
-                if previousLevelOptimization is not None:
-                    potential_matches = match_Closest_Word(dbItem[location_col].upper(), location_Levels[i][previousLevelOptimization])
-                else:
-                    potential_matches = match_Closest_Word(dbItem[location_col].upper(), flat_location_levels[i])
+                potential_matches = match_Closest_Word(dbItem[location_col].upper(), flat_location_levels[i])
                 best = next(iter(potential_matches.items()))
                 if best[1] > dbItem[location_Level_Names[i] + 'Report']:
                     dbItem[location_Level_Names[i] + 'Report'] = best[1]
@@ -135,9 +135,11 @@ def location_Mapper(location_Levels, location_level_lookup, flat_location_levels
                 if math.isclose(dbItem[location_Level_Names[i] + 'Report'], 1.0, rel_tol=1e-9, abs_tol=0.0):
                     break
         if math.isclose(dbItem[location_Level_Names[i] + 'Report'], 1.0, rel_tol=1e-9, abs_tol=0.0):
-            previousLevelOptimization = dbItem[location_Level_Names[i]]
-        else:
-            previousLevelOptimization = None
+            if i != 0:
+                for j in range(i, 0, -1):
+                    dbItem[location_Level_Names[j - 1] + 'Report'] = 1
+                    dbItem[location_Level_Names[j - 1]] = location_level_lookup[j][dbItem[location_Level_Names[j]]]
+            return
 
 
 change = [
@@ -274,15 +276,15 @@ location_Sawp = [
     ["Cité Ettahrir", "Ettahrir 1"],
     ["Zone urbaine nord", "Centre Urbain Nord"],
     ["حي إبن سيناء", "Ibn Sina"],
-    ["wahat","Cité les palmeraies"],
-    ["cite wahat","Cité les palmeraies"],
-    ["cité el wahat ","Cité les palmeraies"],
-    ["hay el wahat","Cité les palmeraies"],
-    ["Cite Erriadh","Marsa Erriadh"],
-    ["Meghira Centre","El Mghira"],
-    ["Medina Jedida","Nouvelle Medina"],
-    ["Monfleury","Montfleury"],
-    ["Hadika","Cite Du Jardin"]
+    ["wahat", "Cité les palmeraies"],
+    ["cite wahat", "Cité les palmeraies"],
+    ["cité el wahat ", "Cité les palmeraies"],
+    ["hay el wahat", "Cité les palmeraies"],
+    ["Cite Erriadh", "Marsa Erriadh"],
+    ["Meghira Centre", "El Mghira"],
+    ["Medina Jedida", "Nouvelle Medina"],
+    ["Monfleury", "Montfleury"],
+    ["Hadika", "Cite Du Jardin"]
 ]
 price_bounds = [10000, 1000000000]
 
@@ -320,25 +322,28 @@ to_del = []
 lcheck = 0
 print(len(data))
 for item in data:
+    for key in list(item.keys()):
+        if 'new' in key.lower():
+            del item[key]
     lcheck += 1
     if lcheck % 100 == 0:
         print(f'{lcheck}|{len(data)}')
     if lcheck % 100 == 0:
         with open(f'../../data/PreProcessed/Treated.json', 'w', encoding="utf-8") as file:
-             json.dump(data, file, indent=4, ensure_ascii=False)
+            json.dump(data, file, indent=4, ensure_ascii=False)
     # location name sawp
     if exists("description", item):
         for sawp in location_Sawp:
             item["description"] = item["description"].replace(sawp[0], sawp[1])
         item["description"] = re.sub(r'\s+', ' ', item["description"])
     # location treatment
-    location_Mapper([states_dict, state_delegations, delegation_munips], [Reverse_States, delegation_states, munips_delegations], [states, delegations, munips],
-                ['NewState', 'NewDelegation', 'newMunip'],
-                [
-                    ['state', 'location', 'description'],
-                    ['delegation', 'location', 'description'],
-                    ['municipality', 'location', 'description']
-                ], item)
+    location_Mapper([Reverse_States, delegation_states, munips_delegations], [states, delegations, munips],
+                    ['NewState', 'NewDelegation', 'newMunip'],
+                    [
+                        ['state', 'location', 'description', "municipality"],
+                        ['delegation', 'location', 'description'],
+                        ['municipality', 'location', 'description']
+                    ], item)
     '''
     # caracteristiques flattening
     if 'caracteristiques' in item.keys():
