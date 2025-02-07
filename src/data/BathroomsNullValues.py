@@ -2,8 +2,8 @@ import json
 import statistics
 
 # Load the dataset
-file_path = "../../data/RAW/binded.json"
-output_file_path = "updated_binded.json"
+file_path = "../../data/PreProcessed/Treated.json"
+output_file_path = "../../data/PreProcessed/Treated.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
