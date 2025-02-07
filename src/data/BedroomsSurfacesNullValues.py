@@ -2,8 +2,7 @@ import json
 import statistics
 
 # Load the dataset
-file_path = "../../data/RAW/binded.json"
-output_file_path = "updated_binded.json"
+file_path = "../../data/PreProcessed/Treated.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -69,8 +68,8 @@ for entry in data:
         entry['surface'] = bedroom_mean_surface.get(bedrooms, 0)  # Default to 0 if no mean available
 
 # Write the updated data to a new JSON file
-with open(output_file_path, "w", encoding="utf-8") as file:
+with open(file_path, "w", encoding="utf-8") as file:
     json.dump(data, file, ensure_ascii=False, indent=4)
 
-print(f"Updated dataset saved to {output_file_path}")
+print(f"Updated dataset saved to {file_path}")
 print(f"Median value used for bedrooms replacement: {median_bedrooms}")
