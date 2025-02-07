@@ -3,7 +3,6 @@ import re
 
 # Load the dataset
 file_path = "../../../data/PreProcessed/Treated.json"
-output_file_path = "updated_binded_bedrooms.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -45,5 +44,5 @@ print(f"Number of newly extracted bedroom values: {extracted_bedrooms_count}")
 print(f"Number of no bedrooms values: {no_bedrooms_count}")
 
 # Write the updated data to a new JSON file
-with open(output_file_path, "w", encoding="utf-8") as file:
+with open(file_path, "w", encoding="utf-8") as file:
     json.dump(data, file, ensure_ascii=False, indent=4)
