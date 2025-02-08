@@ -2,8 +2,8 @@ import json
 import statistics
 
 # Load the dataset
-file_path = "../../data/PreProcessed/Treated.json"
-output_file_path = "../../data/PreProcessed/Treated.json"
+file_path = "../../data/processed/CleanedProcessed.json"
+output_file_path = "../../data/processed/CleanedProcessed.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -46,7 +46,7 @@ for entry in data:
                             break
             elif 'bedrooms' in entry and entry['bedrooms'] is not None:
                 # if the bedrooms are between 1 and 3, we assume that there is only one bathroom
-                if entry['bedrooms'] >= 1 and entry['bedrooms'] <= 3:
+                if entry['bedrooms'] >= 0 and entry['bedrooms'] <= 3:
                     with_bathrooms += 1
                     entry['bathrooms'] = 1
                     one_bathroom += 1
@@ -60,8 +60,11 @@ for entry in data:
                     with_bathrooms += 1
                     entry['bathrooms'] = 3
                     three_bathrooms += 1
-            else:                
+            else:
                 without_bathrooms += 1
+        elif entry['bedrooms'] == 2 and 'description' not in entry:
+            entry['bathrooms'] = 1
+
 
 # Calculate percentages
 with_bathrooms_percentage = (with_bathrooms / total_entries) * 100 if total_entries > 0 else 0
