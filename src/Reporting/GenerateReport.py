@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-file_path = "../../data/PreProcessed/Treated.json"
+file_path = "../../data/processed/processed.json"
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
 
