@@ -13,7 +13,7 @@ without_bedrooms = 0
 
 # Total entries
 total_entries = len(data)
-
+print(total_entries)
 # Count entries
 for entry in data:
     if 'bedrooms' in entry and entry['bedrooms'] is not None:
@@ -28,6 +28,24 @@ without_bedrooms_percentage = (without_bedrooms / total_entries) * 100 if total_
 # Display results
 print(f"Entries with bedrooms: {with_bedrooms} ({with_bedrooms_percentage:.2f}%)")
 print(f"Entries without bedrooms: {without_bedrooms} ({without_bedrooms_percentage:.2f}%)")
+
+
+with_surface = 0
+without_surface = 0
+for entry in data:
+    if 'surface' in entry and entry['surface'] is not None:
+        with_surface += 1
+    else:
+        without_surface += 1
+
+# Calculate percentages
+with_surface_percentage = (with_surface / total_entries) * 100 if total_entries > 0 else 0
+without_surface_percentage = (without_surface / total_entries) * 100 if total_entries > 0 else 0
+
+# Display results
+print(f"Entries with bedrooms: {with_surface} ({with_surface_percentage:.2f}%)")
+print(f"Entries without bedrooms: {without_surface} ({without_surface_percentage:.2f}%)")
+
 
 # Extract valid bedroom values (non-null)
 bedroom_values = [entry['bedrooms'] for entry in data if 'bedrooms' in entry and entry['bedrooms'] is not None]

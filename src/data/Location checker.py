@@ -1,6 +1,6 @@
 import json
 
-with open('../../data/RAW/Binded.json', 'r', encoding="utf-8") as file:
+with open('../../data/PreProcessed/Treated.json', 'r', encoding="utf-8") as file:
     data = json.load(file)
 
 with open('../../data/GeoData/Locations.json', 'r', encoding="utf-8") as file:

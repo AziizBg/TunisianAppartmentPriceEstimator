@@ -27,17 +27,20 @@ for entry in data:
                 extracted_bedrooms = int(match1.group(1))
                 entry['bedrooms'] = extracted_bedrooms
                 extracted_bedrooms_count += 1
+                print(f"extracted_bedrooms: {extracted_bedrooms}, entry: {entry}")
             elif match2:
                 extracted_bedrooms = int(match2.group(1))
                 entry['bedrooms'] = extracted_bedrooms
                 extracted_bedrooms_count += 1
+                print(f"extracted_bedrooms: {extracted_bedrooms}, entry: {entry}")
             elif match3:
                 extracted_bedrooms = int(match3.group(1))
                 entry['bedrooms'] = extracted_bedrooms
                 extracted_bedrooms_count += 1
+                print(f"extracted_bedrooms: {extracted_bedrooms}, entry: {entry}")
             else:
                 no_bedrooms_count += 1
-                print("No pattern matched for entry:", entry)
+                # print("No pattern matched for entry:", entry)
 
 # Display the number of extracted bedroom values
 print(f"Number of newly extracted bedroom values: {extracted_bedrooms_count}")
