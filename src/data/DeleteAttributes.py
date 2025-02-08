@@ -2,11 +2,12 @@ import json
 
 # File paths
 input_file = '../../data/processed/processed.json'
-output_file = '../../data/processed/CleanedProcessed.json'
+output_file = '../../data/processed/CleanedProcessed1.json'
 
 # Attributes to remove
 # to delete next step:  "description"
-attributes_to_remove = ["age", "Etat", "date", "location", "floor_description", "rooms"]
+# attributes_to_remove = ["age", "Etat", "date", "location", "floor_description", "rooms"]
+attributes_to_remove = ["description", "etage_count", "rez_de_chaussee_count"]
 
 # Load JSON data with UTF-8 encoding
 with open(input_file, 'r', encoding='utf-8') as file:
