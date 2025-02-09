@@ -3,7 +3,7 @@ import re
 
 from text_to_num import alpha2digit
 
-with open('../../data/processed/processed.json', 'r', encoding="utf-8") as file:
+with open('data/processed/CleanedProcessed.json', 'r', encoding="utf-8") as file:
     data = json.load(file)
 
 count = 0
@@ -14,7 +14,11 @@ for item in data:
         if match:
             floor = int(match.group().replace("tage",""))
             if floor < 11:
-                print(floor)
                 item["floor"] = floor
                 count += 1
 
+# Save the updated data back to the JSON file
+with open('data/processed/CleanedProcessed.json', 'w', encoding="utf-8") as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
+
+print(f"Updated {count} records with floor information.")
