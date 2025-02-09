@@ -6577,7 +6577,7 @@
     },
     {
         "price": 122000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "surface": 90,
         "bedrooms": 2,
         "bathrooms": 1,
@@ -6589,8 +6589,8 @@
         "floor": 3,
         "equipped_kitchen": "Yes",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 115000,
@@ -12101,9 +12101,9 @@
         "garage": "no",
         "bedrooms": 3,
         "floor": 4,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 320000,
@@ -12350,9 +12350,9 @@
         "garage": "yes",
         "floor": 4,
         "bedrooms": 2.0,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 110000,
@@ -12966,9 +12966,9 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "bedrooms": 2.0,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 80000,
@@ -22707,7 +22707,7 @@
     },
     {
         "price": 210000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 2,
         "surface": 114,
@@ -22719,8 +22719,8 @@
         "garage": "no",
         "elevator": "No",
         "floor": 3,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 210000,
@@ -23920,7 +23920,7 @@
         "garage": "no",
         "elevator": "Yes",
         "floor": 4,
-        "municipality": "RESIDENCE TYPE",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -26687,7 +26687,7 @@
     },
     {
         "price": 164000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "parking": "Yes",
         "bedrooms": 2,
         "bathrooms": 1,
@@ -26699,8 +26699,8 @@
         "heating": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 120000,
@@ -43307,7 +43307,7 @@
     },
     {
         "price": 350000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "surface": 180,
         "heating": "Yes",
@@ -43318,8 +43318,8 @@
         "garage": "no",
         "elevator": "Yes",
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 350000,
@@ -43505,7 +43505,7 @@
     },
     {
         "price": 347000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "surface": 130,
         "balcony": "no",
@@ -43517,8 +43517,8 @@
         "elevator": "Yes",
         "floor": 4,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 345000,
@@ -44468,7 +44468,7 @@
     },
     {
         "price": 335000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 2,
         "surface": 154,
@@ -44480,8 +44480,8 @@
         "equipped_kitchen": "Yes",
         "parking": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 333000,
@@ -47143,7 +47143,7 @@
     },
     {
         "price": 304000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 2,
         "surface": 146,
@@ -47155,8 +47155,8 @@
         "garage": "no",
         "elevator": "No",
         "floor": 6,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 302000,
@@ -48854,7 +48854,7 @@
         "elevator": "Yes",
         "floor": 4,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 3",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -50379,7 +50379,7 @@
     },
     {
         "price": 275000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "surface": 100,
         "parking": "Yes",
@@ -50390,8 +50390,8 @@
         "garage": "no",
         "elevator": "Yes",
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 275000,
@@ -50994,7 +50994,7 @@
     },
     {
         "price": 270000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 1,
         "surface": 95,
@@ -51005,12 +51005,12 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "Yes",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 270000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 1,
         "surface": 95,
@@ -51021,8 +51021,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 270000,
@@ -51376,7 +51376,7 @@
     },
     {
         "price": 265000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 115,
@@ -51388,12 +51388,12 @@
         "garage": "no",
         "elevator": "No",
         "floor": 4,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 265000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 1,
         "surface": 110,
@@ -51404,8 +51404,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 265000,
@@ -52097,7 +52097,7 @@
     },
     {
         "price": 260000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 107,
@@ -52109,12 +52109,12 @@
         "equipped_kitchen": "Yes",
         "parking": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 260000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 2,
         "surface": 111,
@@ -52126,8 +52126,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "floor": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 260000,
@@ -52679,7 +52679,7 @@
     },
     {
         "price": 255000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 153,
@@ -52691,8 +52691,8 @@
         "garage": "no",
         "elevator": "No",
         "floor": 0,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 255000,
@@ -54144,7 +54144,7 @@
     },
     {
         "price": 250000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 2,
         "surface": 113,
@@ -54156,8 +54156,8 @@
         "balcony": "no",
         "parking": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 250000,
@@ -54755,7 +54755,7 @@
     },
     {
         "price": 245000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 108,
@@ -54766,8 +54766,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 245000,
@@ -56315,7 +56315,7 @@
     },
     {
         "price": 235000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 104,
@@ -56327,12 +56327,12 @@
         "garage": "no",
         "elevator": "No",
         "floor": 5,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 235000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 75,
@@ -56344,8 +56344,8 @@
         "garage": "no",
         "elevator": "No",
         "floor": 5,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 235000,
@@ -58665,8 +58665,8 @@
         "elevator": "No",
         "floor": 2,
         "bathrooms": 1,
-        "municipality": "RADES VILLE",
-        "delegation": "RADES"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 220000,
@@ -58687,7 +58687,7 @@
     },
     {
         "price": 220000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 92,
@@ -58699,12 +58699,12 @@
         "garage": "no",
         "elevator": "No",
         "floor": 0,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 220000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 115,
@@ -58716,8 +58716,8 @@
         "equipped_kitchen": "Yes",
         "balcony": "Yes",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 220000,
@@ -58839,7 +58839,7 @@
     },
     {
         "price": 219000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 104,
@@ -58850,8 +58850,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 219000,
@@ -59672,7 +59672,7 @@
     },
     {
         "price": 210000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "bathrooms": 1,
         "surface": 102,
@@ -59684,8 +59684,8 @@
         "air_conditioning": "no",
         "garage": "no",
         "floor": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 210000,
@@ -60863,7 +60863,7 @@
     },
     {
         "price": 198000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "bathrooms": 1,
         "surface": 100,
@@ -60874,8 +60874,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 198000,
@@ -61163,7 +61163,7 @@
     },
     {
         "price": 195000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "surface": 110,
         "heating": "Yes",
@@ -61175,12 +61175,12 @@
         "elevator": "Yes",
         "floor": 5,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 195000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "bathrooms": 1,
         "surface": 110,
@@ -61192,8 +61192,8 @@
         "equipped_kitchen": "Yes",
         "parking": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 195000,
@@ -62284,7 +62284,7 @@
     },
     {
         "price": 186000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "surface": 90,
         "parking": "Yes",
@@ -62296,8 +62296,8 @@
         "elevator": "Yes",
         "floor": 5,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 185002,
@@ -63722,7 +63722,7 @@
     },
     {
         "price": 180000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 2,
         "surface": 107,
@@ -63733,8 +63733,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "Yes",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 180000,
@@ -65686,7 +65686,7 @@
     },
     {
         "price": 166000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "bathrooms": 1,
         "surface": 60,
@@ -65698,8 +65698,8 @@
         "equipped_kitchen": "Yes",
         "air_conditioning": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 165800,
@@ -67251,7 +67251,7 @@
         "surface": 60.0,
         "elevator": "Yes",
         "floor": 4,
-        "municipality": "RESIDENCE TYPE",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -69337,7 +69337,7 @@
     },
     {
         "price": 138000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "bathrooms": 1,
         "surface": 52,
@@ -69349,8 +69349,8 @@
         "garage": "no",
         "elevator": "Yes",
         "floor": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 136000,
@@ -69601,7 +69601,7 @@
     },
     {
         "price": 135000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "balcony": "no",
         "parking": "no",
@@ -69612,8 +69612,8 @@
         "elevator": "No",
         "surface": 75.25140267927502,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 135000,
@@ -70100,7 +70100,7 @@
     },
     {
         "price": 130000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 0,
         "surface": 50,
         "heating": "Yes",
@@ -70112,8 +70112,8 @@
         "elevator": "No",
         "floor": 0,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 130000,
@@ -70837,7 +70837,7 @@
     },
     {
         "price": 122000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 2,
         "surface": 90,
         "parking": "Yes",
@@ -70849,8 +70849,8 @@
         "elevator": "No",
         "floor": 3,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 120000,
@@ -72055,7 +72055,7 @@
         "garage": "yes",
         "elevator": "No",
         "floor": 4,
-        "municipality": "EL MOUROUJ 5",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -72111,7 +72111,7 @@
     },
     {
         "price": 110000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 3,
         "bathrooms": 1,
         "surface": 80,
@@ -72122,12 +72122,12 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 110000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "bedrooms": 1,
         "bathrooms": 1,
         "surface": 58,
@@ -72138,8 +72138,8 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 110000,
@@ -72575,7 +72575,7 @@
         "elevator": "No",
         "floor": 3,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 5",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -73143,7 +73143,7 @@
     },
     {
         "price": 97000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "parking": "Yes",
         "bedrooms": 3,
         "bathrooms": 1,
@@ -73154,8 +73154,8 @@
         "air_conditioning": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 960000,
@@ -74105,7 +74105,7 @@
     },
     {
         "price": 70000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "parking": "Yes",
         "bedrooms": 3,
         "bathrooms": 1,
@@ -74117,8 +74117,8 @@
         "garage": "no",
         "elevator": "No",
         "floor": 1,
-        "municipality": "EL OUARDIA",
-        "delegation": "EL OUARDIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 70000,
@@ -80365,7 +80365,7 @@
     },
     {
         "price": 200000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "parking": "Yes",
         "bedrooms": 5,
         "bathrooms": 2,
@@ -80376,8 +80376,8 @@
         "air_conditioning": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 199000,
@@ -81461,7 +81461,7 @@
         "garage": "no",
         "elevator": "No",
         "bathrooms": 1,
-        "municipality": "RESIDENCE TYPE",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -81812,7 +81812,7 @@
         "elevator": "No",
         "bedrooms": 2.0,
         "bathrooms": 1,
-        "municipality": "RESIDENCE TYPE",
+        "municipality": "EL MOUROUJ 6",
         "delegation": "EL MOUROUJ"
     },
     {
@@ -82015,7 +82015,7 @@
     },
     {
         "price": 153000,
-        "state": "TUNIS",
+        "state": "BEN AROUS",
         "parking": "Yes",
         "bedrooms": 1,
         "heating": "Yes",
@@ -82026,8 +82026,8 @@
         "garage": "no",
         "surface": 75.25140267927502,
         "bathrooms": 1,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ"
     },
     {
         "price": 153000,
@@ -85360,11 +85360,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 125,
         "price": 220000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -85494,10 +85494,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "price": 215000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "surface": 110,
         "heating": "Yes",
@@ -85548,7 +85548,7 @@
         "surface": 80,
         "price": 100000,
         "state": "BEN AROUS",
-        "municipality": "EL MOUROUJ 5",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "balcony": "no",
@@ -88199,11 +88199,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 120,
         "price": 280000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 3,
         "heating": "Yes",
         "balcony": "Yes",
@@ -88681,11 +88681,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 143,
         "price": 300000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 3,
         "parking": "Yes",
         "balcony": "no",
@@ -88847,11 +88847,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 100,
         "price": 275000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -89183,11 +89183,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 120,
         "price": 347000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 3,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -90015,11 +90015,11 @@
         "bathrooms": 2
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 109,
         "price": 230000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -90149,11 +90149,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 110,
         "price": 190000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "parking": "Yes",
         "heating": "Yes",
@@ -90708,11 +90708,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 250,
         "price": 640000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "balcony": "no",
         "parking": "no",
         "heating": "no",
@@ -91263,11 +91263,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 92,
         "price": 220000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -91779,11 +91779,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 156,
         "price": 380000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 3,
         "parking": "Yes",
         "air_conditioning": "Yes",
@@ -91876,11 +91876,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 90,
         "price": 186000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -96237,11 +96237,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 110,
         "price": 195000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -98345,11 +98345,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 100,
         "price": 220000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "parking": "Yes",
         "heating": "Yes",
@@ -99371,11 +99371,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 143,
         "price": 315000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "parking": "Yes",
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -99733,11 +99733,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 113,
         "price": 200000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -99749,11 +99749,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 50,
         "price": 140000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "parking": "Yes",
         "heating": "Yes",
@@ -100000,11 +100000,11 @@
         "floor": 2
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 116,
         "price": 275000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -100116,11 +100116,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 105,
         "price": 270000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -100942,10 +100942,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "price": 190000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "air_conditioning": "Yes",
         "balcony": "no",
@@ -101684,11 +101684,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 117,
         "price": 250000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "air_conditioning": "Yes",
         "balcony": "Yes",
@@ -101767,11 +101767,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "BAB BHAR",
+        "delegation": "EL MOUROUJ",
         "surface": 116,
         "price": 255000,
-        "state": "TUNIS",
-        "municipality": "LES JARDINS",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "balcony": "no",
@@ -107000,11 +107000,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 111,
         "price": 215000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "heating": "Yes",
         "balcony": "no",
         "parking": "no",
@@ -108853,10 +108853,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "price": 215000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -108891,7 +108891,7 @@
         "surface": 80,
         "price": 100000,
         "state": "BEN AROUS",
-        "municipality": "EL MOUROUJ 5",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "balcony": "no",
@@ -111974,11 +111974,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 92,
         "price": 220000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -112501,11 +112501,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 90,
         "price": 186000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -117847,11 +117847,11 @@
         "floor": 3
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 100,
         "price": 220000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 1,
         "parking": "Yes",
         "heating": "Yes",
@@ -118449,11 +118449,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 143,
         "price": 315000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "parking": "Yes",
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -120034,10 +120034,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "price": 190000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "air_conditioning": "Yes",
         "balcony": "no",
@@ -120611,11 +120611,11 @@
         "floor": 2
     },
     {
-        "delegation": "BAB BHAR",
+        "delegation": "EL MOUROUJ",
         "surface": 116,
         "price": 255000,
-        "state": "TUNIS",
-        "municipality": "LES JARDINS",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "balcony": "no",
@@ -125372,11 +125372,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "RADES",
+        "delegation": "EL MOUROUJ",
         "surface": 111,
         "price": 215000,
         "state": "BEN AROUS",
-        "municipality": "RADES VILLE",
+        "municipality": "EL MOUROUJ 6",
         "heating": "Yes",
         "balcony": "no",
         "parking": "no",
@@ -126091,11 +126091,11 @@
         "floor": 3
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 100,
         "price": 275000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 2,
         "parking": "Yes",
         "heating": "Yes",
@@ -126426,11 +126426,11 @@
         "bathrooms": 1
     },
     {
-        "delegation": "EL KABARIA",
+        "delegation": "EL MOUROUJ",
         "surface": 120,
         "price": 347000,
-        "state": "TUNIS",
-        "municipality": "EL MOUROUJ 2",
+        "state": "BEN AROUS",
+        "municipality": "EL MOUROUJ 6",
         "bedrooms": 3,
         "heating": "Yes",
         "air_conditioning": "Yes",
@@ -143551,9 +143551,9 @@
         "garage": "no",
         "elevator": "No",
         "floor": 6,
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 190000,
@@ -143652,9 +143652,9 @@
         "air_conditioning": "no",
         "equipped_kitchen": "no",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 120000,
@@ -143771,9 +143771,9 @@
         "equipped_kitchen": "Yes",
         "parking": "Yes",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 267000,
@@ -143788,9 +143788,9 @@
         "equipped_kitchen": "Yes",
         "parking": "Yes",
         "garage": "no",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 190000,
@@ -143805,9 +143805,9 @@
         "equipped_kitchen": "no",
         "garage": "no",
         "elevator": "No",
-        "municipality": "EL MOUROUJ 2",
-        "delegation": "EL KABARIA",
-        "state": "TUNIS"
+        "municipality": "EL MOUROUJ 6",
+        "delegation": "EL MOUROUJ",
+        "state": "BEN AROUS"
     },
     {
         "price": 255000,
