@@ -5,7 +5,7 @@ with open('data/processed/CleanedProcessed.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Liste des index à supprimer (triés en ordre décroissant pour éviter les décalages)
-indexes_to_remove = sorted([2874, 3263, 4101, 4882, 5377, 6467, 6868, 8251, 8698], reverse=True)
+indexes_to_remove = sorted([3653,4372,4375,4380,4381,4387,4395,5038,6595,6674,7238,7488,8663], reverse=True)
 
 # Suppression des enregistrements
 for idx in indexes_to_remove:

@@ -1,7 +1,7 @@
 import json
 
 # File paths
-input_file = 'data/processed/processed.json'
+input_file = 'data/processed/CleanedProcessed.json'
 output_file = 'data/processed/CleanedProcessed2.json'
 
 # Attributes to remove

@@ -1,0 +1,42 @@
+import json
+from collections import defaultdict
+
+
+# Liste des délégations valides
+valid_delegations = ['01 JUIN', '18 JANVIER', '20 MARS', 'AFRANE', 'AIN ZAGHOUAN', 'AMILCAR', 'AOUINA', 'ARIANA ESSOUGHRA', 'ARIANA MEDINA', 'ARIANA SUPÉRIEURE', 'BAB BHAR', 'BAB EL ALOUJ', 'BAB EL ASSEL', 'BAB EL FALLA', 'BAB EL JAZIRA', 'BAB EL KHADRA', 'BAB MNARA', 'BAB SAADOUN', 'BAB SOUIKA', 'BARDO', 'BELLEVUE', 'BELVEDERE', 'BEN AROUS EST', 'BEN AROUS OUEST', 'BERGE DU LAC', 'BIR EL BEY', 'BORJ CEDRIA', 'BORJ EL LOUZIR', 'BORJ LOUZIR', 'BORJ TOUIL', 'BOU MHEL', 'BOUCHOUCHA', 'BOURAGBA', 'BOURGIL', 'CARTHAGE BYRSA', 'CARTHAGE PLAGE', 'CENTRE URBAIN NORD', 'CHAOUAT', 'CHARGUIA', 'CHELA', 'CHOTRANA', 'CHOUCHET RADES', 'CITE AZIZA', 'CITE BHAR LAZREG', 'CITE BOUSSOUFFARA', 'CITE DES JUGES 2', 'CITE DES OLIVIERS', 'CITE DU JARDIN', 'CITE DU STADE', 'CITE EL BOUSTENE 2', 'CITE EL EZZ', 'CITE EL HABIB', 'CITE EL HANA', 'CITE EL INTILAKA', 'CITE EL KHADRA', 'CITE EL KHALIL', 'CITE EL MAHRAJENE', 'CITE EL MISK', 'CITE EL MOEZ', 'CITE EL MOSTAKBEL', 'CITE ENNACIM', 'CITE ENNOUR JAAFAR', 'CITE ESSAADA', 'CITE ESSAADA (RIADH ANDALOUS)', 'CITE HEDI NOUIRA', 'CITE HELEL', 
+'CITE JAAFAR', 'CITE JARDIN', 'CITE MOHAMED ALI', 'CITE OPLYMPIQUE', 'CITE PANORAMA', 'CITE RIMILA', 'CITE SNIT', 'CITE THERMALE', 'CITÉ CHABEB', 'CITÉ DE LA SANTÉ', 'CITÉ EL AHMADI', 'CITÉ EL BEHI LADGHEM', 'CITÉ EL GHAZALA 1', 'CITÉ EL GHAZALA 2', 'CITÉ EL MHIRI', 'CITÉ EL MOSTAKBEL', 'CITÉ EL SAHAFA', 'CITÉ ENNASR 1', 'CITÉ ENNASR 2', 'CITÉ ENNOZHA', 'CITÉ ESSALEM', 'CITÉ ESSALEMA', 'CITÉ LES PALMERAIES', 'CITÉ RIADH', 'DAR FADHAL', 'DENDEN', 'DJEBEL JELLOUD', 
+'DJEBEL RESSAS', 'DOUAR HICHER', 'EL AKBA', 'EL AROUSSIA', 'EL BASSATINE', 'EL FOULA', 'EL GHAZELA', 'EL HADIKA', 'EL HAFSIA', 'EL HALFAOUINE', 'EL HIDHAB', 'EL HRAIRIA', 'EL KABARIA 1', 'EL KESSIBI', 'EL MANAR', 'EL MANAR 1', 'EL MANAR 2', 'EL MANAR 3', 'EL MANSOURA', 'EL MEHIRI', 'EL MENZAH 1', 'EL MENZAH 4', 'EL MENZAH 5', 'EL MENZAH 6', 'EL MENZAH 7', 'EL MENZAH 8', 'EL MENZAH 9', 'EL MGHIRA', 'EL MNIHLA', 'EL MOUROUJ 1', 'EL MOUROUJ 2', 'EL MOUROUJ 3', 
+'EL MOUROUJ 4', 'EL MOUROUJ 5', 'EL OMRANE', 'EL OMRANE SUPERIEUR', 'EL OUARDIA', 'EL YASMINA', 'EL YASMINET', 'EL ZRARIA', 'ENNAHLI', 'ENNASR', 'ENNASSIM', 'ERRAFAHA', 'ERRIADH', 'ESSAADA', 'ESSALEM', 'ETTAAMIR', 'ETTAHRIR 1', 'EZZAHRA VILLE', 'EZZAHROUNI', 'EZZOUHOUR', 'EZZOUHOUR 4', 'FARHAT HACHED', 'FOUCHANA', 'GAMMARTH', 'GAMMARTH SUPÉRIEUR', 'HABIB THAMEUR', 'HAMMAM LIF VILLE', 'HAMMEM CHATT', 'HAMMEM LIF BOU KORNINE', 'HEDI CHAKER', 'IBN KHALDOUN', 'IBN SINA', 'IBN SINA 2', 'JAAFAR', "JARDINS D'EL MENZAH", 'JARDINS DE CARTHAGE', 'KABOUTI', 'KALLAT EL ANDALOUS', 'KHAZNADAR', 'KHEIREDDINE', 
+'KHEIREDDINE PACHA', 'KRAM EST', 'KRAM OUEST', 'KSAR SAID', 'KSAR SAID 2', 'LA GOULETTE', 'LA GOULETTE CASINO', 'LA MEDINA', 'LAFAYETTE', 'LE JASMIN', 'LES JARDINS', 'MAAKEL EZZAIM', 'MANOUBA', 'MANOUBA CENTRE', 'MARSA ENNASSIM', 'MARSA ERRIADH', 'MARSA MEDINA', 'MARSA PLAGE', 'MARSA SAFSAF', 'MEGRINE', 'MEGRINE CHAKER', 'MEGRINE JAOUHARA', 'MEGRINE RIADH', 'MEHRINE', 'MELLAHA', 'MOHAMEDIA', 'MOHAMMED ALI', 'MONGI SLIM', 'MONTFLEURY', 'MONTPLAISIR', 'MORNAG', 'MORNAGUIA', 'MUTUELLE VILLE', 'NKHILET', 'NOUVELLE ARIANA', 'NOUVELLE MEDINA 1', 'NOUVELLE MEDINA 2', 'OUED ELLIL', 'RADES', 'RADES FORET', 'RADES MELIANE',
+ 'RADES PLAGE', 'RADES VILLE', 'RAS TABIA', 'REPUBLIQUE', 'RESIDENCE CHOUROUK 1', 'RESIDENCE JINENE EL MOUROUJ', 'RESIDENCE TYPE', 'RESIDENCE ZAHRET EL MOUROUJ', 
+'RIADH', 'ROUTE DU RELAIS', 'RÉSIDENCE IBN ZEIDOUN', 'SAIDA', 'SALAMBO', 'SANHAJA', 'SIDI AMOR', 'SIDI BELHASSEN', 'SIDI BEN AROUS', 'SIDI BOU SAID', 'SIDI DAOUED', 'SIDI EL BAHRI', 'SIDI EL BECHIR', 'SIDI FREJ', 'SIDI HASSINE', 'SIDI MOSBAH', 'SIDI SAAD', 'SIDI SALAH', 'SIDI THABET', 'SOUKRA', 'TAHAR SFAR', "TAIEB EL M'HIRI", 'TAIEB MHIRI', 'TOURBET EL BEY', 'VILLAGE MEDITERRANEE', 'VILLE SPORTIVE', 'ZAHRA']
+
+def extract_locations_by_delegation(data, valid_delegations):
+    delegation_locations = defaultdict(lambda: defaultdict(int))  # Dictionnaire imbriqué pour compter les occurrences
+
+    for record in data:
+        delegation = record.get("municipality")
+        location = record.get("location")
+
+        if delegation in valid_delegations and location:
+            delegation_locations[delegation][location] += 1  # Incrémentation du compteur
+
+    # Convertir le format pour une meilleure lisibilité JSON
+    return {deleg: dict(locs) for deleg, locs in delegation_locations.items()}
+
+
+# Chargement des données JSON
+with open('data/processed/processed.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+print(f"🔹 Chargé {len(data)} enregistrements.")
+
+# Extraction des locations par délégation avec fréquence
+result = extract_locations_by_delegation(data, valid_delegations)
+
+# Sauvegarde des résultats dans un fichier JSON
+output_path = 'data/PreProcessed/DelegationLocations.json'
+with open(output_path, 'w', encoding='utf-8') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Résultats sauvegardés dans {output_path}")
