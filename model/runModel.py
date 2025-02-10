@@ -6,8 +6,9 @@ import os
 import pandas as pd
 
 app = Flask(__name__)
-# Enable CORS for the specific route
-CORS(app, resources={r"/predict": {"origins": "http://localhost:4200"}})
+# Enable CORS for all routes
+# CORS(app, resources={r"/predict": {"origins": ""}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Load the model
 model_path = os.path.join(os.path.dirname(
