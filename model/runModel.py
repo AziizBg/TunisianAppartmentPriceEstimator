@@ -11,7 +11,7 @@ CORS(app, resources={r"/predict": {"origins": "http://localhost:4200"}})
 
 # Load the model
 model_path = os.path.join(os.path.dirname(
-    __file__), 'best_apartment_price_model7.pkl')
+    __file__), 'best_apartment_price_model.pkl')
 model = joblib.load(model_path)
 
 
