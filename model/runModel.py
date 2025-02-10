@@ -15,6 +15,10 @@ model_path = os.path.join(os.path.dirname(
     __file__), 'best_apartment_price_model.pkl')
 model = joblib.load(model_path)
 
+# endpoint to check if the API is running
+@app.route('/', methods=['GET, OPTIONS, HEAD'])
+def home():
+    return 'Hello World!'
 
 @app.route('/predict', methods=['POST'])
 def predict():
