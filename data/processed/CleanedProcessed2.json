@@ -103838,10 +103838,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "TUNIS",
+        "delegation": "CARTHAGE",
         "surface": 98,
         "price": 185000,
-        "state": "CARTHAGE",
+        "state": "TUNIS",
         "municipality": "CARTHAGE EL YASMINA",
         "bedrooms": 2,
         "balcony": "yes",
@@ -103886,10 +103886,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "TUNIS",
+        "delegation": "CARTHAGE",
         "surface": 210,
         "price": 320000,
-        "state": "CARTHAGE",
+        "state": "TUNIS",
         "municipality": "CARTHAGE EL YASMINA",
         "bedrooms": 3,
         "balcony": "no",
@@ -125274,10 +125274,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "TUNIS",
+        "delegation": "CARTHAGE",
         "surface": 98,
         "price": 185000,
-        "state": "CARTHAGE",
+        "state": "TUNIS",
         "municipality": "CARTHAGE EL YASMINA",
         "bedrooms": 2,
         "balcony": "yes",
@@ -125322,10 +125322,10 @@
         "bathrooms": 1
     },
     {
-        "delegation": "TUNIS",
+        "delegation": "CARTHAGE",
         "surface": 210,
         "price": 320000,
-        "state": "CARTHAGE",
+        "state": "TUNIS",
         "municipality": "CARTHAGE EL YASMINA",
         "bedrooms": 3,
         "balcony": "no",
