@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load the dataset
-with open('data/processed/CleanedProcessed.json', 'r', encoding='utf-8') as f:
+with open('data/processed/processed.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Load the extracted descriptions
@@ -18,9 +18,9 @@ for i, record in enumerate(data):
         matched_records.append({"Index": i, "Description": record["description"]})
         
         # Update record
-        record["state"] = "TUNIS"
-        record["delegation"] = "CARTHAGE"
-        record["municipality"] = "CARTHAGE EL YASMINA"
+        record["state"] = "ARIANA"
+        record["delegation"] = "ARIANA VILLE"
+        record["municipality"] = "RIADH EL ANDALOUS"
 
 # Convert matched records to a DataFrame for a table output
 df = pd.DataFrame(matched_records)
@@ -32,7 +32,7 @@ else:
     print("No matching records found.")
 
 # Save the updated dataset
-with open('data/processed/CleanedProcessed.json', 'w', encoding='utf-8') as f:
+with open('data/processed/processed.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("✅ Dataset updated and saved ")
